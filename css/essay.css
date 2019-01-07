@@ -23,7 +23,7 @@ article, footer { background: #fff;
     padding: 1em}
 
 /* ------------TYPOGRAPHY------------ */
- h2, h3,h4 {
+  h2, h3,h4 {
     font-weight: normal;
     color: #ffcc33;
     text-align: center
@@ -36,7 +36,7 @@ p, li, blockquote {
 }
 
 h1 {
-    font-size: 34;
+    font-size: 1.999;
     margin: 3em
     color: #ffcc33;
     text-align: center
