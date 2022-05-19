@@ -51,34 +51,14 @@ h3 { font-size: 1.999em
 }
 h4 { font-size: 1.999em
 }
-
-
-    
-    blockquote {
-        hanging-punctuation:first; 
-        text-indent:-0.3em
-         }
-
-header h3 {
-    font-style:
-    font-size: 2.35em;
-    margin: .1em 0 2em 0;
-    color: #333 
-    }
-    
-/* -----------STYLING LINKS -------------*/
-
-a {
-    color: #c06;
-    text-decoration: none;
-}
-a:hover, a:active {
-    color: #000;
-    border-bottom: 1px dotted 
-}
     
 /*------------NAVIGATION----------------*/
 
+header h3 {
+    font-size: 2.35em;
+    margin: .200px 0 2em 0;
+    color: #333 
+    }
 nav {
     top:0;
     left:0;
@@ -105,7 +85,20 @@ nav a:link {color:#fff}
 nav a:visited {color:#fff}
 
 nav a:hover {border-bottom:none;
-    color: #000}
+    color: #000
+}
+/* -----------STYLING LINKS -------------*/
+
+a {
+    color: #c06;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #000;
+    border-bottom: 1px dotted 
+}
+    
+
 
 /*--------------BLOCKQUOTE-----------*/
 
@@ -129,15 +122,6 @@ blockquote cite {
         max-width: 100%;
 }
 
-.hand {
-        display: block;
-        margin: 0;
-        padding:0;
-        max-width: 100%;
-    
-    
-}
-    
 /*-------------FOOTER----------------*/
 
     footer {
